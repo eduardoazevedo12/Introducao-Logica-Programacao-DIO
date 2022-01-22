@@ -1,0 +1,29 @@
+LISTAS 
+2 TIPOS: Ligadas conecta-se apenas com o que está na frente, sendo ele o último nó caso esteja
+	 sozinho e caso tenha mais 1 a frente o próximo será o último
+	 Duplamente Ligadas conecta-se com o da frente e de tras podendo ser atribuido nome de
+	 primeiro nó e ainda tendo o último no mesmo caso de cima
+podem ser feitas buscas normais ou reversas
+
+	as ligações são chamadas de NÓS
+
+PILHAS
+2 TIPOS: UEPS(ultima a entrar primeiro a sair)
+	 PEPS(primeiro a entrar primeiro a sair)
+
+FILA 
+Funciona exatamente como a PEPS ↑
+
+ARVORE - facilita a busca por todas as posições
+Elementos de forma heirarquica
+elemento raiz fica no topo como se fosse uma arvore inversa
+subelemeentos subordinados a raiz chamados de nós ou folhas
+
+TABELHA HASH
+assossia valores a chaves de pesquisa - codifica os elementos
+sendo valor a posição e 
+chave parte da informação que compoe o elemento
+
+Grafos
+programar relação entre objetos como se fosse um circulo social
+ele pode se relacionar de diversas formas e não apenas linearmente
