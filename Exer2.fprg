@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 04:49:26 "/>
+        <attribute name="created" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjAzOjU3OjQzICI7Mjc0OQ=="/>
+        <attribute name="edited" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA0OjQ5OjI2ICI7MzsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, mar&#231;o, abril, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual foi o valor de vendas realizadas em Janeiro? R$ &quot;" newline="False"/>
+            <input variable="janeiro"/>
+            <output expression="&quot;Qual foi o valor de vendas realizadas em Fevereiro? R$ &quot;" newline="True"/>
+            <input variable="fevereiro"/>
+            <output expression="&quot;Qual foi o valor de vendas realizadas em Mar&#231;o? R$ &quot;" newline="False"/>
+            <input variable="mar&#231;o"/>
+            <output expression="&quot;Qual foi o valor de vendas realizadas em Abril? R$ &quot;" newline="False"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+mar&#231;o+abril)/4"/>
+            <output expression="&quot;Valor total de vendas = &quot;" newline="False"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; receber&#225; um abono de 10%.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; receber&#225; um abono de 3%.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 09:36:38 "/>
+        <attribute name="created" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA5OjMyOjMxICI7Mjc0NQ=="/>
+        <attribute name="edited" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA5OjM2OjM4ICI7MjsyODY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, mult, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="mult" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <for variable="numero" start="numero" end="limite" direction="inc" step="1">
+                <assign variable="mult" expression="numero*9"/>
+                <output expression="numero &amp; &quot; x 9 = &quot; &amp; mult" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

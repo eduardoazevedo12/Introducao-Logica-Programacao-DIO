@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 09:16:01 "/>
+        <attribute name="created" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA5OjA4OjQ2ICI7Mjc1NA=="/>
+        <attribute name="edited" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA5OjE2OjAxICI7MjsyODUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <for variable="numero" start="1" end="limite" direction="inc" step="1">
+                <output expression="&quot;N&#250;mero atual = &quot;&amp;numero" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

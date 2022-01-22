@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="eduar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 05:05:39 "/>
+        <attribute name="created" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjAyOjI0OjAxICI7MjczNg=="/>
+        <attribute name="edited" value="ZWR1YXI7REVTS1RPUC00RUswRzhQOzIwMjItMDEtMjA7IjA1OjA1OjM5ICI7NDsyODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o seu nome? &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite sua primeira nota:&quot;" newline="False"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Digite sua segunda nota:&quot;" newline="False"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;Digite sua terceira nota:&quot;" newline="False"/>
+            <input variable="Nota3"/>
+            <output expression="&quot;Digite sua quarta nota:&quot;" newline="False"/>
+            <input variable="Nota4"/>
+            <assign variable="media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="&quot;Nome: &quot; &amp; nome" newline="True"/>
+            <output expression="&quot;A primeira nota foi = &quot; &amp; Nota1 &amp; &quot; A segunda nota foi = &quot; &amp; Nota2 &amp; &quot; A terceira nota foi = &quot; &amp; Nota3 &amp; &quot; A quarta nota foi = &quot; &amp; Nota4" newline="True"/>
+            <output expression="&quot;Soma das notas &#233;: &quot; &amp; Nota1+Nota2+Nota3+Nota4" newline="True"/>
+            <output expression="&quot;A sua Media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
